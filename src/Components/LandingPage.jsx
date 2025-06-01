@@ -10,8 +10,7 @@ function LandingPage() {
                     sx={{
                         justifyContent: "center",
                         alignItems: "center",
-                        marginTop: "40px"
-                        // minHeight: '100vh',
+                        minHeight: '100vh',
 
                     }}>
                     <Grid size={9}>
