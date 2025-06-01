@@ -47,7 +47,7 @@ function ResumePage() {
                             {/* Experience Content */}
                             <div className="ml-10">
                                 <h2 className="text-white font-bold text-lg">Full Stack Developer - Artesian Softare Technologies </h2>
-                                <p className="text-[#FEC864] text-sm mt-1">March, 2024 — Present</p>
+                                <p className="text-[#FEC864] text-sm mt-2 mb-1">March, 2024 — Present</p>
                                 <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1">
                                     <li>Delivered end-to-end Payroc payment integration across UI, backend, Hangfire jobs, and reconciliation.</li>
                                     <li>Migrated legacy Azure WebJobs to Hangfire, enhancing scalability and reliability.</li>

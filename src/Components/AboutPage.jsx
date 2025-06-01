@@ -20,17 +20,48 @@ import Postman from '../assets/Postman.png'
 
 function AboutPage() {
     const skills = [
+
+        {
+            skillIcon: Git,
+            skillName: 'Git'
+        },
+        {
+            skillIcon: Github,
+            skillName: 'Github'
+        },
+        {
+            skillIcon: Css,
+            skillName: 'Css'
+        },
+        {
+            skillIcon: Postman,
+            skillName: 'Postman'
+        },
         {
             skillIcon: Html,
             skillName: 'Html'
         },
         {
-            skillIcon: Css,
-            skillName: 'Css'
-        }, {
             skillIcon: Js,
             skillName: 'Javascript'
-        }, {
+        },
+        {
+            skillIcon: Vue,
+            skillName: 'Vue JS'
+        },
+        {
+            skillIcon: Dotnet,
+            skillName: 'Dotnet#'
+        },
+        {
+            skillIcon: Csharp,
+            skillName: 'C#'
+        },
+        {
+            skillIcon: ServiceStack,
+            skillName: 'ServiceStack'
+        },
+        {
             skillIcon: NodeJs,
             skillName: 'Node JS'
         }, {
@@ -51,29 +82,7 @@ function AboutPage() {
             skillIcon: MongoDb,
             skillName: 'MongoDB'
         },
-        {
-            skillIcon: Git,
-            skillName: 'Git'
-        },
-        {
-            skillIcon: Github,
-            skillName: 'Github'
-        }, {
-            skillIcon: Postman,
-            skillName: 'Postman'
-        },
-        {
-            skillIcon: Vue,
-            skillName: 'Vue JS'
-        },
-        {
-            skillIcon: Csharp,
-            skillName: 'C#'
-        },
-        {
-            skillIcon: Dotnet,
-            skillName: 'Dotnet#'
-        },
+
         {
             skillIcon: Azure,
             skillName: 'Microsoft Azure'
@@ -82,10 +91,7 @@ function AboutPage() {
             skillIcon: Hangfire,
             skillName: 'Hangfire Jobs'
         },
-        {
-            skillIcon: ServiceStack,
-            skillName: 'Service Stack'
-        }
+
     ]
     return (
 
