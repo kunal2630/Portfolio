@@ -14,14 +14,14 @@ function Sidebar() {
                 <div className=" rounded-full bg-[#333333] flex justify-center items-center">
                     <img
                         src={ProfileLogo}
-                        className="py-2  w-[120px] rounded-full object-cover"
+                        className="py-2 w-[80px] sm:w-[120px] rounded-full object-cover"
                         alt="Profile"
                     />
                 </div>
                 <div className="flex flex-col justify-center items-center px-2">
                     {/* Name and Title */}
-                    <h1 className="text-3xl lg:text-2xl lg:mt-6 font-bold text-center">Kishlay Kunal</h1>
-                    <h2 className="text-sm sm:text-lg mt-4 text-[#FEBF5F] bg-[#333333] rounded-3xl text-center  py-2 px-4">
+                    <h1 className="text-2xl sm:text-3xl lg:text-2xl lg:mt-6 font-bold text-center">Kishlay Kunal</h1>
+                    <h2 className="text-sm sm:text-lg lg:text-md mt-4 text-[#FEBF5F] bg-[#333333] rounded-3xl text-center  py-2 px-3 sm:px-4">
                         Software Engineer
                     </h2>
                 </div>

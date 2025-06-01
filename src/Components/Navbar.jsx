@@ -23,7 +23,7 @@ const Navbar = () => {
                     {navItems.map((item) => (
                         <li key={item}>
                             <NavLink
-                                to={`/${item.toLowerCase()}`}
+                                to={`/portfolio/${item.toLowerCase()}`}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "text-[#FEC260] font-semibold"
@@ -45,7 +45,7 @@ const Navbar = () => {
                             {navItems.map((item) => (
                                 <li key={item}>
                                     <NavLink
-                                        to={`/${item.toLowerCase()}`}
+                                        to={`/portfolio/${item.toLowerCase()}`}
                                         className={({ isActive }) =>
                                             isActive
                                                 ? "text-[#FEC260] font-semibold"

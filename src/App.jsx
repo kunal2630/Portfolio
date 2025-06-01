@@ -10,12 +10,12 @@ import MainLayout from './Components/MainLayout';
 function App() {
   return (
     <Routes>
-      <Route path="/Portfolio" element={<LandingPage />} />
+      <Route path="/portfolio" element={<LandingPage />} />
       <Route element={<MainLayout />}>
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/resume" element={<ResumePage />} />
-        <Route path="/projects" element={<ProjectPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/portfolio/about" element={<AboutPage />} />
+        <Route path="/portfolio/resume" element={<ResumePage />} />
+        <Route path="/portfolio/projects" element={<ProjectPage />} />
+        <Route path="/portfolio/contact" element={<ContactPage />} />
       </Route>
     </Routes>
   );
