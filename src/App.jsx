@@ -10,7 +10,7 @@ import MainLayout from './Components/MainLayout';
 function App() {
   return (
     <Routes>
-      <Route path="/portfolio" element={<LandingPage />} />
+      <Route path="/portfolio/" element={<LandingPage />} />
       <Route element={<MainLayout />}>
         <Route path="/portfolio/about" element={<AboutPage />} />
         <Route path="/portfolio/resume" element={<ResumePage />} />
