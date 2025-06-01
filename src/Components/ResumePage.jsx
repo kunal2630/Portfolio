@@ -46,18 +46,20 @@ function ResumePage() {
 
                             {/* Experience Content */}
                             <div className="ml-10">
-                                <h2 className="text-white font-bold text-lg">Member Technical Staff - Zoho Corporation Pvt. Ltd.</h2>
-                                <p className="text-[#FEC864] text-sm mt-1">Dec, 2022 — Mar, 2025</p>
+                                <h2 className="text-white font-bold text-lg">Full Stack Developer - Artesian Softare Technologies </h2>
+                                <p className="text-[#FEC864] text-sm mt-1">March, 2024 — Present</p>
                                 <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1">
-                                    <li>Integrated products with Dark Web and Botnet Data Leak monitoring.</li>
-                                    <li>Implemented automatic configuration of Windows devices.</li>
-                                    <li>Enhanced product functionality by integrating Webroot API.</li>
-                                    <li>Addressed and resolved various bugs in cloud/on-premises products.</li>
+                                    <li>Delivered end-to-end Payroc payment integration across UI, backend, Hangfire jobs, and reconciliation.</li>
+                                    <li>Migrated legacy Azure WebJobs to Hangfire, enhancing scalability and reliability.</li>
+                                    <li>Built reusable UI components like File Uploader, Payment Modules etc. streamlining development.</li>
+                                    <li>Integrated Authorize.Net for secure and compliant payment processing.</li>
+                                    <li>Created an AI-powered IVR Bot using Twilio and ChatGPT for automated appointment booking.</li>
                                 </ul>
                             </div>
 
                             {/* Short Vertical Line to next dot */}
-                            <div className="absolute -left-[7px] top-6 w-[2px] h-24 bg-[#2e2e2e]" />
+                            <div className="absolute -left-[7px] top-6 w-[2px] h-72 sm:h-64 md:h-44 lg:h-40 xl:h-36 bg-[#2e2e2e]" />
+
 
                         </div>
 

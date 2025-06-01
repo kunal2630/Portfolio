@@ -13,8 +13,10 @@ import Vue from '../assets/vue.png'
 import Github from '../assets/github.png'
 import Csharp from '../assets/csharp.png'
 import Dotnet from '../assets/dotnet.png'
-
-
+import Azure from '../assets/Azure.png'
+import Hangfire from '../assets/Hangfire.png'
+import ServiceStack from '../assets/ServiceStack.png'
+import Postman from '../assets/Postman.png'
 
 function AboutPage() {
     const skills = [
@@ -42,6 +44,10 @@ function AboutPage() {
             skillName: 'Tailwind CSS'
         },
         {
+            skillIcon: Typescript,
+            skillName: 'TypeScript'
+        },
+        {
             skillIcon: MongoDb,
             skillName: 'MongoDB'
         },
@@ -53,7 +59,7 @@ function AboutPage() {
             skillIcon: Github,
             skillName: 'Github'
         }, {
-            skillIcon: Html,
+            skillIcon: Postman,
             skillName: 'Postman'
         },
         {
@@ -69,11 +75,17 @@ function AboutPage() {
             skillName: 'Dotnet#'
         },
         {
-            skillIcon: Typescript,
-            skillName: 'TypeScript'
+            skillIcon: Azure,
+            skillName: 'Microsoft Azure'
         },
-
-
+        {
+            skillIcon: Hangfire,
+            skillName: 'Hangfire Jobs'
+        },
+        {
+            skillIcon: ServiceStack,
+            skillName: 'Service Stack'
+        }
     ]
     return (
 
@@ -107,9 +119,7 @@ function AboutPage() {
                 ))}
             </div>
 
-
         </div>
-
 
     );
 }
