@@ -1,7 +1,7 @@
 import WorkIcon from '@mui/icons-material/Work';
 import ImportContactsIcon from '@mui/icons-material/ImportContacts';
 import Navbar from './Navbar';
-import Html from '../assets/Html.png';
+import Html from '../assets/html.png';
 import Css from '../assets/css.png'
 import Js from '../assets/js.png'
 import Express from '../assets/express.png'
@@ -15,10 +15,10 @@ import Vue from '../assets/vue.png'
 import Github from '../assets/github.png'
 import Csharp from '../assets/csharp.png'
 import Dotnet from '../assets/dotnet.png'
-import Azure from '../assets/Azure.png'
-import Hangfire from '../assets/Hangfire.png'
-import ServiceStack from '../assets/ServiceStack.png'
-import Postman from '../assets/Postman.png'
+import Azure from '../assets/azure.png'
+import Hangfire from '../assets/hangfire.png'
+import ServiceStack from '../assets/serviceStack.png'
+import Postman from '../assets/postman.png'
 
 function ResumePage() {
     const skills = [

@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
-import EatsProjectCover from '../assets/EatsProjectCover.png';
-import FlickoProjectCover from '../assets/FlickoProjectCover.png';
+import EatsProjectCover from '../assets/eatsprojectcover.png';
+import FlickoProjectCover from '../assets/flickoprojectcover.png';
 
 const projects = [
     {
