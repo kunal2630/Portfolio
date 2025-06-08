@@ -31,7 +31,7 @@ function ProjectPage() {
                     <Navbar />
                 </div>
 
-                <h1 className="text-4xl font-bold mt-8 text-white">Projects</h1>
+                <h1 className="text-3xl font-bold mt-8 text-white">Projects</h1>
                 <div className='border-b-4 mt-2 border-[#FEC864] w-[5%]'></div>
 
                 {/* Project Section */}

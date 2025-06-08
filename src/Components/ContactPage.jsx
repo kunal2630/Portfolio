@@ -44,7 +44,7 @@ function ContactPage() {
                     borderRadius: '0rem 1.5rem 0rem 1.5rem'
                 }}> <Navbar /></div>
 
-                <h1 className="text-4xl font-bold mt-8 text-white">Contact</h1>
+                <h1 className="text-3xl font-bold mt-8 text-white">Contact</h1>
                 <div className='border-b-4 mt-2 border-[#FEC864] w-[5%]'></div>
 
                 {/* Form */}
@@ -57,7 +57,7 @@ function ContactPage() {
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                                 placeholder="Full Name"
-                                className="w-full text-lg p-4 rounded-xl bg-[#2E2E30] text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#FEC864]"
+                                className="w-full text-md p-4 rounded-xl bg-[#2E2E30] text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#FEC864]"
                             />
                         </div>
 
@@ -68,7 +68,7 @@ function ContactPage() {
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Email Address"
-                                className="w-full text-lg p-4 rounded-xl bg-[#2E2E30] text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#FEC864]"
+                                className="w-full text-md p-4 rounded-xl bg-[#2E2E30] text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#FEC864]"
                             />
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function ContactPage() {
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                             placeholder="Write your message..."
-                            className="w-full p-4 rounded-xl bg-[#2E2E30] text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#FEC864] text-lg"
+                            className="w-full p-4 rounded-xl bg-[#2E2E30] text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#FEC864] text-md"
                         />
                     </div>
 
@@ -87,14 +87,14 @@ function ContactPage() {
                         type="submit"
                         disabled={!isFormValid}
                         sx={{
-                            minWidth: "211px",
-                            minHeight: "50px",
+                            minWidth: "120px",
+                            minHeight: "32px",
                             borderRadius: '7px',
-                            padding: '10px 20px',
+                            padding: '10px 15px',
                             backgroundColor: 'rgb(232, 138, 37)',
-                            fontSize: '1.1rem',
-                            fontWeight: 600,
-                            my: 2,
+                            fontSize: '1rem',
+                            fontWeight: 500,
+                            my: 1,
                             mx: 0.5,
                             transition: 'all 0.3s ease',
                             '&:hover': {
