@@ -1,102 +1,11 @@
 import Navbar from './Navbar';
-import Html from '../assets/Html.png';
-import Css from '../assets/css.png'
-import Js from '../assets/js.png'
-import Express from '../assets/express.png'
-import MongoDb from '../assets/mongodb.png'
-import NodeJs from '../assets/nodejs.png'
-import Typescript from '../assets/typescript.png'
-import React from '../assets/react.png'
-import Tailwind from '../assets/tailwind.png'
-import Git from '../assets/git.png'
-import Vue from '../assets/vue.png'
-import Github from '../assets/github.png'
-import Csharp from '../assets/csharp.png'
-import Dotnet from '../assets/dotnet.png'
-import Azure from '../assets/Azure.png'
-import Hangfire from '../assets/Hangfire.png'
-import ServiceStack from '../assets/ServiceStack.png'
-import Postman from '../assets/Postman.png'
 import ComputerIcon from '@mui/icons-material/Computer';
 import StorageIcon from '@mui/icons-material/Storage';
 import CloudQueueIcon from '@mui/icons-material/CloudQueue';
 import BuildIcon from '@mui/icons-material/Build';
 
 function AboutPage() {
-    const skills = [
 
-        {
-            skillIcon: Git,
-            skillName: 'Git'
-        },
-        {
-            skillIcon: Github,
-            skillName: 'Github'
-        },
-        {
-            skillIcon: Css,
-            skillName: 'Css'
-        },
-        {
-            skillIcon: Postman,
-            skillName: 'Postman'
-        },
-        {
-            skillIcon: Html,
-            skillName: 'Html'
-        },
-        {
-            skillIcon: Js,
-            skillName: 'Javascript'
-        },
-        {
-            skillIcon: Vue,
-            skillName: 'Vue JS'
-        },
-        {
-            skillIcon: Dotnet,
-            skillName: 'Dotnet#'
-        },
-        {
-            skillIcon: Csharp,
-            skillName: 'C#'
-        },
-        {
-            skillIcon: ServiceStack,
-            skillName: 'ServiceStack'
-        },
-        {
-            skillIcon: NodeJs,
-            skillName: 'Node JS'
-        }, {
-            skillIcon: Express,
-            skillName: 'Express JS'
-        }, {
-            skillIcon: React,
-            skillName: 'React JS'
-        }, {
-            skillIcon: Tailwind,
-            skillName: 'Tailwind CSS'
-        },
-        {
-            skillIcon: Typescript,
-            skillName: 'TypeScript'
-        },
-        {
-            skillIcon: MongoDb,
-            skillName: 'MongoDB'
-        },
-
-        {
-            skillIcon: Azure,
-            skillName: 'Microsoft Azure'
-        },
-        {
-            skillIcon: Hangfire,
-            skillName: 'Hangfire Jobs'
-        },
-
-    ]
     return (
 
         <div className="bg-[#1E1E1F] min-h-[600px] w-full lg:w-[70%] xl:w-[75%]  p-6 rounded-3xl " style={{ position: 'relative' }}>
