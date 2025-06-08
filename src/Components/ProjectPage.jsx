@@ -1,18 +1,18 @@
 import Navbar from "./Navbar";
-import EatsProjectCover from '../assets/eatsprojectcover.png';
-import FlickoProjectCover from '../assets/flickoprojectcover.png';
+import eatsProjectCover from '../assets/eatsprojectcover.png';
+import flickoprojectcover from '../assets/flickoprojectcover.png';
 
 const projects = [
     {
         title: "Eatss",
         tech: "HTML, React.js, Javascript, Tailwind CSS",
-        imageUrl: EatsProjectCover,
+        imageUrl: eatsProjectCover,
         link: "https://eatss.netlify.app/"
     },
     {
         title: "Flicko",
         tech: "HTML, React.js, Javascript, Firebase, Tailwind CSS,Node.js, Express.js, MongoDB",
-        imageUrl: FlickoProjectCover,
+        imageUrl: flickoprojectcover,
         link: "https://flickomovie.netlify.app/"
     },
 ];

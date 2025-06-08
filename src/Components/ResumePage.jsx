@@ -17,7 +17,7 @@ import Csharp from '../assets/csharp.png'
 import Dotnet from '../assets/dotnet.png'
 import Azure from '../assets/azure.png'
 import Hangfire from '../assets/hangfire.png'
-import ServiceStack from '../assets/serviceStack.png'
+import ServiceStack from '../assets/servicestack.png'
 import Postman from '../assets/postman.png'
 
 function ResumePage() {
